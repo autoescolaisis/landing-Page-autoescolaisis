@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://autoescolaisis.com.br/sitemap.xml
+
+# Pastas bloqueadas
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /temp/
+Disallow: /search/
+Disallow: /private/
+
+# Permite parâmetros de busca
+Allow: /*?s=
+Disallow: /*?*
